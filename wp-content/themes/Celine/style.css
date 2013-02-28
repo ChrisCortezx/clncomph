@@ -1,0 +1,3424 @@
+body{
+
+
+
+	min-width:1024px;
+
+
+
+    background:#212020;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+#headerWrapper,#contentWrapper,#footerWrapper{
+
+
+
+
+
+
+
+	width:100%;
+
+
+
+
+
+
+
+	background:repeat-x;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+#headerWrapper{
+
+
+
+
+
+
+
+	height:102px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+#headerWrapper{
+
+	background:url(images/header.png) left top repeat-x;
+
+	}
+
+	.wrap{
+
+		width:950px;
+
+		margin:0 auto;
+
+		min-height:536px;
+
+		display:block;
+
+		}
+
+
+
+	#head{
+
+		padding-top:18px;
+
+		}
+
+
+
+	#head ul ul{
+
+	display: none;
+
+    float: left;
+
+    position: absolute;
+
+    z-index: 1000;
+
+	}
+
+
+
+	#head ul ul li {
+
+	min-width:180px;
+
+	}
+
+
+
+
+
+	#head ul li:hover > ul{
+
+		display:block;
+
+	}
+
+	#head li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul{
+
+    display:none;
+
+    }
+
+	
+
+	#head ul li ul li:hover > ul{
+
+		display:block;
+
+	}
+
+
+
+#head li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul{
+
+    display:block;
+
+    }
+
+
+
+	#head,#footer{
+
+		width:950px;
+
+		margin:0 auto;
+
+		}
+
+		#logo{
+
+			background:url(images/line.png) right bottom no-repeat;
+
+			display: block;
+
+			float: left;
+
+			height: 71px;
+
+			padding: 0 32px 0 0;
+
+			}
+
+
+
+
+
+
+
+		.clr{
+
+			clear:both;
+
+			}
+
+		.siblings{
+
+			position:absolute;
+
+			left:200px;
+
+			top:152px;
+
+			}
+
+
+
+
+
+
+
+		#navigation,#mainmenu li,#footer ul li{
+
+			float:left;
+
+			padding-top:11px;
+
+			}
+
+
+
+
+
+
+
+		#mainmenu li a{
+
+			background:url(images/line.png) right no-repeat;
+
+			font-size:11px;
+
+			padding:23px 15px 15px;
+
+			text-shadow: 0 1px #343333;
+
+			}
+
+
+
+
+
+
+
+		#mainmenu li a,#footer ul li a,#socialMedia span{
+
+			text-decoration:none;
+
+			font-family:arial;
+
+			font-style:normal;
+
+			text-transform:uppercase;
+
+			color:#797878;
+
+			display:block;
+
+			}
+
+
+
+			#mainmenu > li:hover{
+
+				background:url(images/hover.png)left bottom repeat-x;
+
+				}
+
+
+
+
+
+		.submenu{
+
+			padding-top:10px;
+
+			}
+
+
+
+
+
+			.submenu li{
+
+				float:none !important;
+
+				background:#000;
+
+				width:200px !important;
+
+				padding-top:0 !important;
+
+				}
+
+
+
+
+
+			.submenu li a,.siblings li a{
+
+				background:none !important;
+
+				padding:7px 10px 10px !important;
+
+				font-size:11px !important;
+
+				}
+
+
+
+
+
+			.submenu li a:hover{
+
+				color:#5c5959 !important;
+
+				}
+
+
+
+#footerWrapper{
+
+	background:url(images/footer.png) left top repeat-x #212020;
+
+	height:102px; 
+
+	}
+
+
+
+
+
+
+
+	#footer{
+
+		padding-top:8px;
+
+
+
+		/* original padding-top:8px;*/
+
+		}
+
+
+
+
+
+
+
+		#footNav li a,#socialMedia span,#copyright li{
+
+			font-size:9px;
+
+			padding:0 10px 0 0;
+
+			margin-top:5px;
+
+			}
+
+
+
+
+
+		#footNav{
+
+			float:left;
+
+			}
+
+
+
+
+
+			#footNav li a:hover,#copyright li a:hover{
+
+				color:#666;
+
+				}
+
+
+
+		#socialMedia{
+
+			float:right;
+
+			}
+
+
+
+
+
+			#socialMedia li a{
+
+				padding-right:5px;
+
+				}
+
+
+
+
+
+
+
+			#fb,#tweet,#instagram{
+
+				width:17px;
+
+				height:17px;
+
+				display:block;
+
+
+
+
+
+
+
+				}
+
+
+
+
+
+
+
+			#fb{
+
+
+
+
+
+
+
+				background:url(images/FB.png) no-repeat scroll left top transparent;
+
+
+
+
+
+
+
+				}
+
+
+
+
+
+
+
+				#fb:hover{
+
+
+
+
+
+
+
+					background:url(images/FB.png) no-repeat scroll left bottom transparent;
+
+
+
+
+
+
+
+					}
+
+
+
+
+
+
+
+			#tweet{
+
+
+
+
+
+
+
+				background:url(images/tweet.png) no-repeat scroll left top transparent;
+
+
+
+
+
+
+
+				}
+
+
+
+
+
+
+
+				#tweet:hover{
+
+
+
+
+
+
+
+					background:url(images/tweet.png) no-repeat scroll left bottom transparent;
+
+
+
+
+
+
+
+					}
+
+
+
+
+
+
+
+			#instagram{
+
+
+
+
+
+
+
+				background:url(images/instagram.png) no-repeat scroll left top transparent;
+
+
+
+
+
+
+
+				}
+
+
+
+
+
+
+
+				#instagram:hover{
+
+
+
+
+
+
+
+					background:url(images/instagram.png) no-repeat scroll left bottom transparent;
+
+
+
+
+
+
+
+					}
+
+
+
+
+
+
+
+	 #copyright li{
+
+
+
+
+
+
+
+		 padding-top:11px !important;
+
+
+
+
+
+
+
+		 font-family:Arial, Helvetica, sans-serif;
+
+
+
+
+
+
+
+		 color:#797878;
+
+
+
+
+
+
+
+		 text-transform:uppercase;
+
+
+
+
+
+
+
+		 }
+
+
+
+
+
+
+
+#contentWrapper{
+
+
+
+
+
+
+
+	min-height:536px;
+
+
+
+	background:#fff;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#contentWrapper h1{
+
+
+
+
+
+
+
+		font-family:arial;
+
+
+
+
+
+
+
+		font-size:22px;
+
+
+
+
+
+
+
+		text-transform:uppercase;
+
+
+
+
+
+
+
+		margin-bottom:10px;
+
+
+
+
+
+
+
+		}
+
+
+
+
+
+
+
+	#contentWrapper p,#contentWrapper a{
+
+
+
+
+
+
+
+		font-family:Verdana, Geneva, sans-serif;
+
+
+
+
+
+
+
+		font-size:11px;
+
+
+
+
+
+
+
+		line-height:18px;
+
+
+
+
+
+
+
+		}
+
+
+
+		#contentWrapper a{
+
+
+
+			color:#000;
+
+
+
+			}
+
+
+
+
+
+
+
+		.breadcrumb{
+
+
+
+
+
+
+
+			color:#212020;
+
+
+
+
+
+
+
+			font-family: verdana;
+
+
+
+
+
+
+
+			font-size: 11px;
+
+
+
+
+
+
+
+			padding:15px 8px 8px 0 !important;
+
+
+
+
+
+
+
+			width:306px;
+
+
+
+
+
+
+
+			margin-bottom:14px;
+
+
+
+
+
+
+
+			}
+
+
+
+
+
+
+
+			.breadcrumb a{
+
+
+
+
+
+
+
+				color:#212020;
+
+
+
+
+
+
+
+				text-decoration:none;
+
+
+
+
+
+
+
+				}
+
+
+
+
+
+
+
+#homeBg{
+
+
+
+
+
+
+
+	background:url(images/walpaper1.jpg) center no-repeat;
+
+
+
+
+
+
+
+	display:block;
+
+
+
+
+
+
+
+	width:950px;
+
+
+
+
+
+
+
+	height:599px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#thumbs{
+
+
+
+
+
+
+
+		float:left;
+
+
+
+
+
+
+
+		margin-top:20px;
+
+
+
+
+
+
+
+		}
+
+
+
+
+
+
+
+		#style,#red,#store{
+
+
+
+
+
+
+
+			width:284px;
+
+
+
+
+
+
+
+			height:133px;
+
+
+
+
+
+
+
+			padding-right:15px;
+
+
+
+
+
+
+
+			display:block;
+
+
+
+
+
+
+
+			margin-bottom:5px;
+
+
+
+
+
+
+
+			}
+
+
+
+
+
+
+
+		#style{
+
+
+
+
+
+
+
+			background:url(images/style.png) left no-repeat;
+
+
+
+
+
+
+
+			}
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+		#red{
+
+
+
+
+
+
+
+			background:url(images/red.png) left no-repeat;
+
+
+
+
+
+
+
+			}
+
+
+
+
+
+
+
+		#store{
+
+
+
+
+
+
+
+			background:url(images/store.png) left no-repeat;
+
+
+
+
+
+
+
+			}
+
+
+
+
+
+
+
+			  #thumbs h1{
+
+
+
+
+
+
+
+				  font-family:"Times New Roman", Times, serif;
+
+
+
+
+
+
+
+				  font-size:25px;
+
+
+
+
+
+
+
+				  font-weight:bold;
+
+
+
+
+
+
+
+				  margin-bottom:5px;
+
+
+
+
+
+
+
+				  }
+
+
+
+
+
+
+
+			  #thumbs p,#thumbs h1{
+
+
+
+
+
+
+
+				  color:#7f7d5d;
+
+
+
+
+
+
+
+				  font-style:italic;
+
+
+
+
+
+
+
+				  }
+
+
+
+
+
+
+
+			  #thumbs p{
+
+
+
+
+
+
+
+				  font-family:Arial, Helvetica, sans-serif;
+
+
+
+
+
+
+
+				  font-size:12px;
+
+
+
+
+
+
+
+				  line-height:18px;
+
+
+
+
+
+
+
+				  }
+
+
+
+
+
+
+
+		#bag article{
+
+
+
+
+
+
+
+			width: 172px;
+
+
+
+
+
+
+
+			}
+
+
+
+
+
+
+
+		#summer article{
+
+
+
+
+
+
+
+			width: 202px;
+
+
+
+
+
+
+
+			}
+
+
+
+
+
+
+
+			.more{
+
+
+
+
+
+
+
+				background:url(images/more.png) no-repeat;
+
+
+
+
+
+
+
+				border:none;
+
+
+
+
+
+
+
+				float:right;
+
+
+
+
+
+
+
+				width:100px;
+
+
+
+
+
+
+
+				height:30px;
+
+
+
+
+
+
+
+				margin-top:7px;
+
+
+
+
+
+
+
+				}
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+#storeLocation tr td  {
+
+
+
+	text-align:left;
+
+
+
+	width: 25%;
+
+
+
+	padding: 10px 10px 10px 0;
+
+
+
+	margin: 10px;	
+
+
+
+	font-family:verdana;
+
+
+
+	font-size:12px;
+
+
+
+	line-height:18px;
+
+
+
+	}
+
+
+
+	#storeLocation span{
+
+
+
+		font-weight:bold;
+
+
+
+		}
+
+
+
+
+
+
+
+	.headerimg {
+
+
+
+
+
+
+
+	background-position: center top;
+
+
+
+    background-repeat: no-repeat;
+
+
+
+    position: absolute;
+
+
+
+    height: 536px;
+
+
+
+    width: 950px;
+
+
+
+	z-index: 999 !important;
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#thumbs ul li a{
+
+
+
+
+
+
+
+	position: relative;
+
+
+
+
+
+
+
+    z-index: 999;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+.gform_title{
+
+
+
+
+
+
+
+	display:none;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+.gfield_label,.gform_description, #gforms_confirmation_message {
+
+
+
+
+
+
+
+	font-family: Verdana,Geneva,sans-serif;
+
+
+
+
+
+
+
+	font-size: 11px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+.gform_description{
+
+
+
+
+
+
+
+    line-height: 18px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+.gfield_label{
+
+
+
+
+
+
+
+	font-weight:bold;
+
+
+
+
+
+
+
+	}
+
+
+
+	
+
+
+
+#input_2_9_1_label,#input_2_9.3_label,#input_2_9_4_label,#input_2_9_5_label,#input_2_9_6_label, #gforms_confirmation_message_div{
+
+
+
+	font-family: Verdana,Geneva,sans-serif;
+
+
+
+	font-size: 11px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.clear-multi label, .gform_body label{
+
+
+
+	font-family: Verdana,Geneva,sans-serif;
+
+
+
+	font-size: 11px;
+
+
+
+}
+
+
+
+
+
+
+
+.gform_body label{
+
+
+
+	font-family: Verdana,Geneva,sans-serif;
+
+
+
+	font-size: 11px;
+
+
+
+}
+
+
+
+
+
+
+
+#input_1_16,#input_1_19,#input_1_22{
+
+
+
+
+
+
+
+	width:312px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.gform_wrapper{
+
+
+
+
+
+
+
+	margin-bottom:0 !important;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+.gform_footer input.button{
+
+
+
+
+
+
+
+	background:url(images/submit.jpg) no-repeat;
+
+
+
+
+
+
+
+	border:none;
+
+
+
+
+
+
+
+	width:93px;
+
+
+
+
+
+
+
+	height:32px;
+
+
+
+
+
+
+
+	text-indent:999px;
+
+
+
+
+
+
+
+	cursor:pointer;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+/**Content inner**/
+
+
+
+
+
+
+
+#contentWrapper1{
+
+
+
+	background:#fff;
+
+
+
+	/*background:url(images/inner.png) left bottom repeat-x #fff;*/
+
+
+
+
+
+
+
+	min-height:592px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#mainProduct{
+
+
+
+
+
+
+
+		float:left;
+
+
+
+
+
+
+
+		}
+
+
+
+
+
+
+
+	#mainProduct{
+
+
+
+
+
+
+
+		width:384px;
+
+
+
+
+
+
+
+		}
+
+
+
+
+
+
+
+		#holder{
+
+
+
+
+
+
+
+			margin-top:100px;
+
+
+
+
+
+
+
+			}
+
+
+
+
+
+
+
+		#mainProduct img{
+
+
+
+
+
+
+
+			margin:0 auto;
+
+
+
+
+
+
+
+			width:365px;
+
+
+
+
+
+
+
+			padding-left:10px;
+
+
+
+
+
+
+
+			}
+
+
+
+
+
+
+
+		#mainProduct h2{
+
+
+
+
+
+
+
+			text-align:center;
+
+
+
+
+
+
+
+			text-transform:uppercase;
+
+
+
+
+
+
+
+			font-family:Arial, Helvetica, sans-serif;
+
+
+
+
+
+
+
+			font-size:18px;
+
+
+
+
+
+
+
+			color:#555;
+
+
+
+
+
+
+
+			margin-top:5px;
+
+
+
+
+
+
+
+			}
+
+
+
+
+
+
+
+	#listProduct{
+
+
+
+
+
+
+
+		/*background:url(images/prodwrap.png) left top repeat-x #f4f3e5;*/
+
+
+
+
+
+
+
+/*		width:562px;*/
+
+
+
+		width:950px;
+
+
+
+
+
+
+
+		height:503px;
+
+
+
+
+
+
+
+	/*	margin-top:15px;*/
+
+
+
+		float:right;
+
+
+
+
+
+
+
+		/*border:1px solid #fff;*/
+
+
+
+
+
+
+
+		}
+
+
+
+
+
+
+
+		.prodWrapper a{
+
+
+
+			display: block;
+
+
+
+			float: left;
+
+
+
+			height: 150px;
+
+
+
+			margin: 0 0 20px 20px;
+
+
+
+			position: relative;
+
+
+
+			width: 150px;
+
+
+
+			}
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+		.prodWrapper{
+
+
+
+			float: right;
+
+
+
+			min-height: 386px;
+
+
+
+			width: 512px;
+
+
+
+			}
+
+
+
+
+
+
+
+		.wp-pagenavi {
+
+
+
+
+
+
+
+			float: right;
+
+
+
+
+
+
+
+			/*margin-right: 13px;*/
+
+
+
+
+
+
+
+			color:#212020;
+
+
+
+
+
+
+
+			font-family:Verdana, Geneva, sans-serif;
+
+
+
+
+
+
+
+			font-size:10px;
+
+
+
+
+
+
+
+			}
+
+
+
+			
+
+
+
+			#nav-below{
+
+
+
+				float:right;
+
+
+
+				}
+
+
+
+
+
+
+
+		.mycontent{
+
+
+
+
+
+
+
+			background:#212020;
+
+
+
+
+
+
+
+			}
+
+
+
+
+
+
+
+			div.jquery-gdakram-tooltip {
+
+
+
+
+
+
+
+				color:#fff;
+
+
+
+
+
+
+
+				font-family:Verdana, Geneva, sans-serif;
+
+
+
+
+
+
+
+				}
+
+
+
+
+
+
+
+				div.jquery-gdakram-tooltip  h3{
+
+
+
+
+
+
+
+					font-size:12px;
+
+
+
+
+
+
+
+					font-weight:bold;
+
+
+
+
+
+
+
+					margin-bottom:4px;
+
+
+
+
+
+
+
+					}
+
+
+
+
+
+
+
+				div.jquery-gdakram-tooltip   p{
+
+
+
+
+
+
+
+					font-size:10px;
+
+
+
+
+
+
+
+					margin-bottom:3px;
+
+
+
+
+
+
+
+					}
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+/* Alignment */
+
+
+
+
+
+
+
+.alignleft {
+
+
+
+
+
+
+
+ display: inline;
+
+
+
+
+
+
+
+ float: left;
+
+
+
+
+
+
+
+ /*margin-right: 1.625em;*/
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alignright {
+
+
+
+
+
+
+
+ float: right;
+
+
+
+  /*margin: 0 0 50px 50px; */
+
+
+
+  margin-right: 50px;
+
+
+
+  margin-left: 10px;
+
+
+
+  margin-top:0px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.aligncenter {
+
+
+
+
+
+
+
+ 
+
+
+
+ float: right;
+
+
+
+ margin-top:10px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.close{
+
+
+
+
+
+
+
+	background:url(images/closelabel.png) no-repeat !important;
+
+
+
+
+
+
+
+	width:8px;
+
+
+
+
+
+
+
+	height:8px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+.content h1{
+
+
+
+
+
+
+
+    font-size: 18px;
+
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+
+    margin-bottom: 12px;
+
+
+
+
+
+
+
+	color:#fff;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+.content h1,.content p{
+
+
+
+
+
+
+
+	font-family: arial;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+.content p{
+
+
+
+
+
+
+
+	line-height:18px;
+
+
+
+
+
+
+
+	font-size:12px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+.content article{
+
+
+
+
+
+
+
+	float: left !important;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+.content article{
+
+
+
+
+
+
+
+	background:#212020;
+
+
+
+
+
+
+
+	color: #FFF;
+
+
+
+
+
+
+
+    font-family: Verdana;
+
+
+
+
+
+
+
+    font-size: 10px;
+
+
+
+
+
+
+
+    line-height: 16px;
+
+
+
+
+
+
+
+    padding: 10px 8px 8px 0;
+
+
+
+
+
+
+
+    width: 198px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+.content img{
+
+
+
+
+
+
+
+    height: 400px;
+
+
+
+
+
+
+
+    width: 400px;
+
+
+
+
+
+
+
+	}
+
+
+
+	
+
+
+
+/**TOOLTIP**/
+
+
+
+a.tooltip span{
+
+
+
+	visibility:hidden;
+
+
+
+	width: 100px;
+
+
+
+	height: auto;
+
+
+
+	line-height: 20px;
+
+
+
+	padding: 10px;
+
+
+
+	left: 50%;
+
+
+
+	margin-left: -64px;
+
+
+
+	font-family: Verdana, Geneva, sans-serif;
+
+
+
+	font-weight: 400;	
+
+
+
+	font-size: 11px;
+
+
+
+	color: #938e41;
+
+
+
+	text-align: center;
+
+
+
+	border: 4px solid #fff;
+
+
+
+	background: rgba(255,255,255,0.3);
+
+
+
+	text-indent: 0px;
+
+
+
+	border-radius: 5px;
+
+
+
+	position: absolute;
+
+
+
+	pointer-events: none;
+
+
+
+	bottom: 100px;
+
+
+
+	opacity: 0;
+
+
+
+	background:#e5e3c5;
+
+
+
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+
+
+
+	-webkit-transition: all 0.6s ease-in-out;
+
+
+
+	-moz-transition: all 0.6s ease-in-out;
+
+
+
+	-o-transition: all 0.6s ease-in-out;
+
+
+
+	-ms-transition: all 0.6s ease-in-out;
+
+
+
+	transition: all 0.6s ease-in-out;
+
+
+
+}
+
+
+
+.tooltip:hover
+
+
+
+{
+
+
+
+  border: 0; /* IE6 fix */
+
+
+
+}
+
+
+
+
+
+
+
+.tooltip:hover span
+
+
+
+{
+
+
+
+    visibility: visible;
+
+
+
+  	opacity: 0.9;
+
+
+
+	bottom: 70px;
+
+
+
+	visibility:visible;
+
+
+
+}
+
+
+
+
+
+
+
+a.tooltip span:before,
+
+
+
+a.tooltip span:after{
+
+
+
+	content: '';
+
+
+
+	position: absolute;
+
+
+
+	bottom: -15px;
+
+
+
+	left: 50%;
+
+
+
+	margin-left: -9px;
+
+
+
+	width: 0;
+
+
+
+	height: 0;
+
+
+
+	border-left: 10px solid transparent;
+
+
+
+	border-right: 10px solid transparent;
+
+
+
+	border-top: 10px solid rgba(0,0,0,0.1);
+
+
+
+}
+
+
+
+a.tooltip span:after{
+
+
+
+	bottom: -14px;
+
+
+
+	margin-left: -10px;
+
+
+
+	border-top: 10px solid #fff;
+
+
+
+}
+
+
+
+
+
+
+
+.wp-pagenavi a, .wp-pagenavi span{
+
+
+
+	color:#7c7878 !important;
+
+
+
+	}
+
+
+
+#headertxt{
+
+
+
+    margin-top: 184px;
+
+
+
+	position:absolute;
+
+
+
+	z-index:1000;
+
+
+
+	margin-left:680px;
+
+
+
+	}
+
+
+
+#firstline,#firstline p{
+
+
+
+	display: block;
+
+
+
+
+
+
+
+    font-family: "Times New Roman",Times,serif;
+
+
+
+
+
+
+
+    font-style: italic;
+
+
+
+
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+
+    width: 272px;
+
+
+
+
+
+
+
+	color:#515151;
+
+
+
+
+
+
+
+	margin-bottom:12px;
+
+
+
+	}
+
+
+
+#firstline{
+
+
+
+    font-size: 55px;
+
+
+
+    line-height: 50px;
+
+
+
+	}
+
+
+
+#firstline p{
+
+
+
+	font-size:25px;
+
+
+
+	line-height:30px;
+
+
+
+	}
+
+
+
+
+
+
+
+#secondline span{
+
+
+
+	background:url(images/button.png) no-repeat;
+
+
+
+	display:block;
+
+
+
+	width:181px;
+
+
+
+	height:37px;
+
+
+
+	border:none;
+
+
+
+	}
+
+
+
+.items img{
+
+
+
+	height:400px;
+
+
+
+	width:400px;
+
+
+
+	margin-bottom:10px;
+
+
+
+	}
+
+
+
+.items{
+
+
+
+	width:400px;
+
+
+
+	float:left;
+
+
+
+	}
+
+
+
+  .items article{
+
+
+
+    display: block;
+
+
+
+    font-family: verdana;
+
+
+
+    font-size: 10px;
+
+
+
+    line-height: 16px;
+
+
+
+    margin-top: 5px;
+
+
+
+    text-transform: uppercase;
+
+
+
+	}
+
+
+
+	.items h2{
+
+
+
+		font-family: verdana;
+
+
+
+		font-size: 12px;
+
+
+
+		font-weight: bold;
+
+
+
+		text-transform: uppercase;
+
+
+
+		}
+
+
+
+	.desc{
+
+
+
+		background: none repeat scroll 0 0 #F4F3E5;
+
+
+
+		border: 1px solid #f0edc3;
+
+
+
+		color: #212020;
+
+
+
+		padding: 10px;
+
+
+
+		}
+
+
+
+	.wp-smiley{
+
+
+
+		display:none;
+
+
+
+		}		
+
+
+
+		
+
+
+
+	#input_2_1_3_container  input[type="text"],#input_2_1_6_container  input[type="text"],#input_1_1_6_container  input[type="text"],#input_1_1_3_container  input[type="text"],#input_1_2_3_container  input[type="text"],#input_1_2_5_container  input[type="text"],#input_1_2_4_container  input[type="text"],#input_1_2_1_container  input[type="text"],#input_1_2_6_container  input[type="text"]{		
+
+
+
+		padding: 5px !important;		
+
+
+
+		}
+
+
+
+	.gfield_select{
+
+
+
+		width:270px !important;
+
+
+
+		}
+
+
+
+	#input_2_9{
+
+
+
+		padding:5px;
+
+
+
+		}
+
+
+
+	#input_1_2_6{
+
+
+
+		padding: 5px;
+
+
+
+		width: 276px !important;
+
+
+
+		}
+
+
+
+ .entry-content{
+
+
+
+		padding-bottom:20px;
+
+
+
+		}
+
+
+
+    #giftCards li{
+
+
+
+                font-family:Verdana, Geneva, sans-serif;
+
+
+
+		        font-size: 11px;
+
+
+
+                line-height: 18px;
+
+
+
+                list-style-type: disc;													margin-left:18px;
+
+
+
+		}		#newSlide{	margin:0 auto;	width:694px;	}
+
+
+
+
+
+
+
+
+
+.memorata{
+
+	margin-top:70px;
+
+	position:relative;
+
+	margin-right:70px;
+
+	}
+
+#promo1 h3,#promo1 strong{
+
+	font-weight:bold;
+
+	
+
+	}
+
+	#promo1 ul li,#promo1 h3{
+
+		font-family:Verdana, Geneva, sans-serif;}
+
+
+
+	#promo1 h3{
+
+		font-size:12px;
+
+		}
+
+#promo1 ul li{
+
+	font-size:11px;
+
+
+
+	line-height:18px;
+
+	margin-left:30px;
+
+	}
+
+.condline {
+
+margin-top:50px;
+
+}
+.eventButton{
+	margin-top:50px;
+	}
+#redEvents{
+	background:#d20001;
+	padding:35px 0 0 30px;
+	width:100%;
+	color:#fff;
+	height:auto;
+	}
+	#redEvents h1{
+		text-align:center;
+		font-size:35px;
+		text-transform:none !important;
+		}
+	#redEvents p{
+		font-size:20px;
+		line-height:25px;
+		color:#000;
+		margin-top:50px;
+		}
+	#redEvents span{
+		color:#FFF;
+		display:block;
+		width:280px;
+		float:left;
+		margin-top:220px;
+		}
+        .memorataPromo{
+		font-size:40px !important;
+		}
+
+#clnpromo{
+	position:absolute;
+	margin-top:250px;
+	right:380px;
+	}

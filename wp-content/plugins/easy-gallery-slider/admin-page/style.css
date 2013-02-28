@@ -1,0 +1,66 @@
+		.egs-tabs {padding:15px 15px; width: 80%; background: #eee; border-radius: 0 0 10px 10px;}
+		#egs-donate div, #egs-contact div {padding: 25px; text-align:center; }
+		.egs-tabs .egs-heading {font-size: 15px; font-weight: 600; margin: 0 0 6px 0; padding: 0;}
+		.egs-tabs .egs-inhead {float:left; width:95px;vertical-align: top; font-size: 14px; font-weight: 600;}
+		.egs-tabs .egs-inhead + div {margin-left:103px; border-left: 1px solid #333; padding-left:6px;}
+		.egs-tabs code {padding: 0;}
+		.egs-tabs .egs-body { margin: 0 0 20px 10px; }
+		.egs-tabs .egs-sub {margin:0 0 0 20px;padding:0;text-size:90%;font-style:italic;}
+		#egs-tab-top {width: 80%; position: relative;list-style: none; clear:both; padding: 0 28px 0 0;border: 1px solid #D8D8AA;background: #EEE;height: 33px; margin: 0;}
+		#egs-tab-top li {float: left;margin: 0; height: 24px;vertical-align: middle; background: #FFFEC7; padding-top: 9px; border-right: 2px solid #D8D8AA;}
+		#egs-tab-top li:hover { background: #fffc7e; }
+		#egs-tab-top li.ui-tabs-selected  {background:#fffc7e;}
+		#egs-tab-top li a {text-decoration: none; padding: 5px 25px; font-weight: 600; font-size: 14px; font-family:"Arial Black",sans-serif;vertical-align: middle;}
+		#egs-tab-top li.debug a { color: red; }
+		#egs-tab-top img { vertical-align: bottom; margin: -22px 0 0 0; }
+		
+		h3 {
+			font-size: 16px;
+			margin: 20px 0 0px;
+			background: 
+			#EEE;
+			padding: 7px;
+			width: 603px;
+			cursor: pointer;
+		}
+		table.form-table { width: 610px; }
+		.form-table tr {
+			display: block;
+			position: relative;
+			float: left;
+			clear: none;
+			width: 200px;
+			height: 70px;
+			border: 1px dashed #EEE;
+		}
+		.form-table tr:hover { background: #FFFFDF; }
+		.form-table th {
+			float:left;
+			font-weight: 600;
+			font-size: 12px;
+			text-align: center;
+			padding: 10px 0;
+		}
+		.form-table td {
+			display: block;
+			text-align: center;
+			padding: 0;
+			width:200px;
+		}
+		.form-table tr:hover .egs-opinfo { display: block; }
+		.egs-opinfo { 
+			display: none;
+			padding: 3px;
+			background: #FFFFDF;
+			position: relative;
+			z-index: 5;
+			text-align: left;
+		}
+		#farb-colorpick {
+			position: absolute;
+			right: -200px;
+			top: -50px;
+			background: #fff;
+			z-index: 99;
+			border: 1px solid #DEDEDE;
+		}
